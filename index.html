@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evento de Tecnología</title>
+  <meta name="description" content="Landing page del evento de tecnología de la universidad.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <header class="site-header">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+    <div class="header-bar">
+      <div class="logo">TechFest<span>UANL</span></div>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span class="sr-only">Abrir menu de navegación</span>
+        <span class="hamburger-icon" aria-hidden="true"></span>
+      </label>
+    </div>
+ 
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#ponentes">Ponentes</a></li>
+        <li><a href="#registro">Registro</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+  <main>
+ 
+    <section class="hero" id="inicio">
+      <h1>TechFest UANL 2026</h1>
+      <p class="hero-subtitle">El encuentro tecnologico de la universidad:
+        charlas con expertos de la industria.</p>
+      <a href="#registro" class="btn btn-primary">Registrate ahora</a>
+    </section>
+ 
+    <section class="agenda" id="agenda">
+      <h2>Agenda del evento</h2>
+      <ul class="agenda-list">
+        <li class="agenda-item">
+          <span class="agenda-time">09:00 - 10:00</span>
+          <span class="agenda-title">Registro y bienvenida</span>
+        </li>
+        <li class="agenda-item">
+          <span class="agenda-time">10:00 - 11:00</span>
+          <span class="agenda-title">Inteligencia Artificial</span>
+        </li>
+        <li class="agenda-item">
+          <span class="agenda-time">11:00 - 12:00</span>
+          <span class="agenda-title">Ciberseguridad</span>
+        </li>
+        <li class="agenda-item">
+          <span class="agenda-time">12:00 - 13:00</span>
+          <span class="agenda-title">Desarrollo Web</span>
+        </li>
+        <li class="agenda-item">
+          <span class="agenda-time">13:00 - 14:00</span>
+          <span class="agenda-title">Descanso</span>
+        </li>
+        <li class="agenda-item">
+          <span class="agenda-time">14:00 - 15:00</span>
+          <span class="agenda-title">Cierre</span>
+        </li>
+      </ul>
+    </section>
+ 
+    <section class="ponentes" id="ponentes">
+      <h2>Ponentes</h2>
+      <div class="ponentes-grid">
+ 
+        <article class="speaker-card">
+          <img src="img/ana-img.jpg"
+               alt="Fotografía de Ana Torres, especialista en Inteligencia Artificial" class="speaker-photo">
+          <h3 class="speaker-name">Ana Torres</h3>
+          <p class="speaker-topic">Inteligencia Artificial aplicada a la industria</p>
+        </article>
+ 
+        <article class="speaker-card">
+          <img src="img/ricardo-img.jpg"
+               alt="Fotografía de Ricardo Ramírez, experto en ciberseguridad" class="speaker-photo">
+          <h3 class="speaker-name">Ricardo Ramírez</h3>
+          <p class="speaker-topic">Ciberseguridad: retos actuales</p>
+        </article>
+ 
+        <article class="speaker-card">
+          <img src="img/keimy-img.jpg"
+               alt="Fotografía de Keimy Rios, desarrolladora web" class="speaker-photo">
+          <h3 class="speaker-name">Keimy Rios</h3>
+          <p class="speaker-topic">Desarrollo Web moderno y accesible</p>
+        </article>
+ 
+      </div>
+    </section>
+ 
+    <section class="registro" id="registro">
+      <h2>Regístrate al evento</h2>
+      <form class="registro-form">
+        <div class="form-group">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" autocomplete="name">
+        </div>
+        <div class="form-group">
+          <label for="correo">Correo electronico</label>
+          <input type="email" id="correo" name="correo" autocomplete="email">
+        </div>
+        <button type="submit" class="btn btn-primary">Confirmar registro</button>
+      </form>
+    </section>
+ 
+  </main>
+ 
+  <footer class="site-footer" id="contacto">
+    <div class="footer-contact">
+      <h2 class="footer-heading">Contacto</h2>
+      <address>
+        Universidad Autonoma de Nuevo Leon - Facultad de Ciencias Fisico-Matematico<br>
+        <a href="#">uni.fcfm@universidad.edu.mx</a><br>
+        (+52) 81 1234 5678
+      </address>
+    </div>
+ 
+    <div class="footer-social">
+      <h2 class="footer-heading">Siguenos</h2>
+      <ul class="social-list">
+        <li><a href="#" aria-label="Síguenos en Instagram">Instagram</a></li>
+        <li><a href="#" aria-label="Síguenos en X">X</a></li>
+        <li><a href="#" aria-label="Síguenos en LinkedIn">LinkedIn</a></li>
+      </ul>
+    </div>
+ 
+    <p class="footer-copy">&copy; 2026 Universidad Autonoma de Nuevo Leon.</p>
+  </footer>
+ 
+</body>
+</html>
